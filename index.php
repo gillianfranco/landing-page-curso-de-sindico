@@ -121,7 +121,6 @@
 
         /* Section 1 */
         .section-1{
-            width: 100%;
             height: 100vh;
             background: var(--azulEscuro);
             background: linear-gradient(180deg, var(--azulEscuro) 0%, var(--azulCinzaEscuro) 70%, var(--azulCinzaClaro) 100%);
@@ -153,10 +152,10 @@
             width: 100vh;
             text-align: center;
             background-color: var(--verde);
+            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
         }
         .section-1 a:hover{
             background-color: var(--verdeClaro);
-            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
         }
 
         /* Sessão 2 */
@@ -211,6 +210,93 @@
             font-weight: 700;
             text-decoration: underline;
         }
+        .section-3 a{
+            font-size: 1.2em;
+            padding: .8em;
+            border-radius: .4em;
+            color: white;
+            width: 100vh;
+            text-align: center;
+            background-color: var(--verde);
+            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+        }
+        .section-3 a:hover{
+            background-color: var(--verdeClaro);
+        }
+
+        /* Sessão 4 */
+        .section-4{
+            padding: 2em 1em;
+            background: var(--dourado);
+            background: linear-gradient(180deg, var(--dourado) 0%, white 30%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-4 div{
+            width: 50%;
+            padding: 0em 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-4 div h1{
+            text-align: center;
+        }
+        .section-4 div h3{
+            text-align: justify;
+            color: var(--azulEscuro);
+        }
+        .section-4 div video{
+            width: 100%;
+            border-radius: .4em;
+        }
+
+        /* Sessão 5 */
+        .section-5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+        }
+        .section-5 h2{
+            color: var(--dourado);
+        }
+        .section-5 > div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container__professor{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0em 1em;
+        }
+        .container__professor div{
+            width: 50%;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0em 4em;
+
+        }
+        .container__professor div > img{
+            height: 100%;
+        }
+        .container__professor div h3{
+            color: var(--azulEscuro);
+        }
+        .container__professor div p{
+            text-align: justify;
+        }
+        .container__professor ul{
+            list-style: none;
+        }
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -236,7 +322,7 @@
        </header>
        <section>
             <div class="section-1">
-                <h1 class="poppins-bold">SAIBA COMO AUMENTAR SUA RENDA</br>SENDO UM <span>SÍNDICO DE SUCESSO</span></h1>
+                <h1>SAIBA COMO AUMENTAR SUA RENDA</br>SENDO UM <span>SÍNDICO DE SUCESSO</span></h1>
                 <div>
                     <video poster="assets/images/capas/capa-video-above-the-fold.png" controls>
                         <source src="assets/videos/sobre-curso-de-sindico.mp4" type="video/mp4">
@@ -249,7 +335,7 @@
                     <img id="imgProfessoresJuntos" src="assets/images/fotos/professores-juntos.png" alt="Foto dos Professores">
                 </div>
                 <div>
-                    <h1 class="poppins-bold">Quem é a Ômega Educa?</h1>
+                    <h1>Quem é a Ômega Educa?</h1>
                     <p>A Ômega Administradora de Condomínios, com vasta experiência em administração condominial e síndico profissional, deu origem à Ômega Educa. Este projeto tem como objetivo ajudar e capacitar indivíduos que almejam se especializar na profissão de síndico. Destina-se tanto a aprimorar os conhecimentos daqueles que já exercem a função de síndico, mas não de forma profissional, quanto a oferecer uma oportunidade de renda extra para interessados na área.</p>
                 </div>
             </div>
@@ -262,7 +348,39 @@
                     <li>Ser um síndico profissional não apenas <span>eleva sua credibilidade</span>, mas também oferece uma <span>vantagem significativa nas eleições condominiais</span> em comparação aos síndicos que <span>não são profissionais</span>.</li>
                     <li><span>Você não precisa necessariamente de uma formação acadêmica</span> para ser síndico profissional.</li>
                 </ul>
-                <a href="">QUERO SER UM SÍNDICO PROFISSIONAL</a>
+                <a href="" class="poppins-bold">QUERO SER UM SÍNDICO PROFISSIONAL</a>
+            </div>
+            <div class="section-4">
+                <div>
+                    <h1>Por que você deve</br>escolher nosso curso?</h1>
+                    <h3>Nosso curso de síndico profissional tem como objetivo te capacitar para enfrentar e resolver todos os desafios que possam surgir na gestão condominial, assegurando as melhores soluções possíveis.</h3>
+                </div>
+                <div>
+                    <video poster="assets/images/capas/beneficios-do-curso.png" controls>
+                        <source src="assets/videos/beneficios-do-curso-de-sindico.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="section-5">
+                <h2>Nossos professores são especialistas e</br>experientes em suas respectivas áreas</h1>
+                <div>
+                    <div class="container__professor">
+                        <div>
+                            <img src="assets/images/fotos/nayne.png" alt="Foto da Professora Nayne">
+                        </div>
+                        <div>
+                            <h3>Nayne Cipriano</h3>
+                            <p>Responsável pelo módulo de 'Apresentação da Profissão de Síndico', Nayne é bacharel em Ciências Contábeis com mais de 6 anos de experiência. Ela atua como síndica profissional e administradora de condomínios na Ômega Administradora, reconhecida como uma das principais administradoras de condomínios em Uberlândia-MG.</p>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href=""><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
        </section>
        <footer></footer> 
