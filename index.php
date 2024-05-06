@@ -153,6 +153,7 @@
             text-align: center;
             background-color: var(--verde);
             box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+            transition: .5s;
         }
         .section-1 a:hover{
             background-color: var(--verdeClaro);
@@ -219,6 +220,7 @@
             text-align: center;
             background-color: var(--verde);
             box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+            transition: .5s;
         }
         .section-3 a:hover{
             background-color: var(--verdeClaro);
@@ -258,6 +260,8 @@
             flex-direction: column;
             align-items: center;
             background-color: white;
+            width: 100%;
+            padding: 0em 0em 1em 0em;
         }
         .section-5 h2{
             color: var(--dourado);
@@ -267,6 +271,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 100%;
         }
         .container__professor{
             display: flex;
@@ -274,6 +279,7 @@
             justify-content: center;
             align-items: center;
             padding: 0em 1em;
+            width: 100%;
         }
         .container__professor div{
             width: 50%;
@@ -296,6 +302,64 @@
         }
         .container__professor ul{
             list-style: none;
+        }
+        .container__professor li a img{
+            width: 50px;
+            transition: .2s;
+        }
+        .container__professor li a img:hover{
+            scale: 101%;
+        }
+        
+        /* Sessão 6 */
+        .section-6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--azulEscuro);
+            width: 100%;
+            padding: 2em 0em;
+            box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.5);
+        }
+        .section-6 h2{
+            color: white;
+            text-align: center;
+        }
+        .section-6 a{
+            font-size: 1.2em;
+            padding: .8em;
+            border-radius: .4em;
+            color: white;
+            width: 100vh;
+            text-align: center;
+            background-color: var(--verde);
+            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+            transition: .5s;
+        }
+        .section-6 a:hover{
+            background-color: var(--verdeClaro);
+        }
+        #documentos-bonus{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0em 15em 1em 15em;
+        }
+        #documentos-bonus > div{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-bottom: 1em;
+        }
+        #documentos-bonus div img{
+            width: 30%;
+            transition: .5s;
+        }
+        #documentos-bonus div img:hover{
+            scale: 101%;
         }
 
     </style>
@@ -374,13 +438,86 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href=""><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
+                                        <a href="https://www.instagram.com/nayne.cipriano/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="container__professor">
+                        <div>
+                            <img src="assets/images/fotos/pollyanna.png" alt="Foto da Professora Pollyanna">
+                        </div>
+                        <div>
+                            <h3>Pollyanna Proietti</h3>
+                            <p>Ministrando o módulo 'Gestão de Prestadores de Serviços', Pollyanna também é bacharel em Ciências Contábeis e traz mais de 17 anos de experiência como síndica profissional e administradora de condomínios.</p>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com/pollyannaproietti/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="container__professor">
+                        <div>
+                            <img src="assets/images/fotos/eliane.png" alt="Foto da Professora Eliane">
+                        </div>
+                        <div>
+                            <h3>Eliane Martins</h3>
+                            <p>Eliane liderará o módulo 'Gestão de Pessoas'. Com formações em Ciências Exatas, Ciências Contábeis e Direito, ela tem uma vasta experiência de mais de 29 anos na área contábil.</p>
+                        </div>
+                    </div>
+                    <div class="container__professor">
+                        <div>
+                            <img src="assets/images/fotos/bruno.png" alt="Foto do Professor Bruno">
+                        </div>
+                        <div>
+                            <h3>Bruno Carvalho</h3>
+                            <p>Encarregado dos módulos 'Gestão Financeira' e 'Estratégias Para Captação de Clientes', Bruno possui uma sólida formação em Ciências Contábeis, Direito do Trabalho e Direito Previdenciário, além de um MBA em Contabilidade e Direito Tributário. Ele tem 9 anos de experiência como síndico e administrador de condomínios.</p>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com/brunopositivo/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="container__professor">
+                        <div>
+                            <img src="assets/images/fotos/clecio.png" alt="Foto do Professor Clécio">
+                        </div>
+                        <div>
+                            <h3>Clécio Nunes</h3>
+                            <p>Especialista que irá conduzir o módulo 'Jurídico', Clécio é bacharel em Direito com Pós-Graduação em Direito do Consumidor. Ele possui 18 anos de experiência no setor imobiliário, atuando como administrador de condomínios e síndico profissional.</p>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com/clecio_souza_nunes/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="section-6">
+                <h2>Compre o nosso curso e tenha uma documentação<br/>gratuita para a gestão condominial</h2>
+                <div id="documentos-bonus">
+                    <div>
+                        <img src="assets/images/documentacao/previsao.png" alt="Foto representativa de uma previsão orçamentária">
+                        <img src="assets/images/documentacao/prestacao.png" alt="Foto de uma prestação de contas">
+                        <img src="assets/images/documentacao/admissao.png" alt="Foto representativa de uma entrevista de emprego">
+                    </div>
+                    <div>
+                        <img src="assets/images/documentacao/epi.png" alt="Foto de um conjunto de equipamentos de proteção">
+                        <img src="assets/images/documentacao/exames.png" alt="Foto representativa de um exame médico">
+                        <img src="assets/images/documentacao/unidade.png" alt="Foto do exterior de um condomínio">
+                    </div>
+                </div>
+                <a href="" class="poppins-bold">CLIQUE AQUI PARA COMPRAR AGORA</a>
             </div>
        </section>
        <footer></footer> 
