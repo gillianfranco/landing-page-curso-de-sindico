@@ -118,6 +118,14 @@
             border-radius: .4em;
             box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
         }
+        @keyframes pulsamento{
+            0% {transform: scale(1);}
+            50% {transform: scale(1.05);}
+            100% {transform: scale(1);}
+        }
+        .pulsamento{
+            animation: pulsamento 2s infinite;
+        }
 
         /* Section 1 */
         .section-1{
@@ -324,6 +332,7 @@
         .section-6 h2{
             color: white;
             text-align: center;
+            text-decoration: underline;
         }
         .section-6 a{
             font-size: 1.2em;
@@ -360,6 +369,26 @@
         }
         #documentos-bonus div img:hover{
             scale: 101%;
+        }
+
+        /* Sessão 7 */
+        .section-7{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1em 4em;
+        }
+        .section-7 h1{
+            margin-bottom: 0em;
+            color: var(--dourado);
+        }
+        .section-7 p{
+            margin-bottom: 0em;
+        }
+        .section-7 h3{
+            color: var(--dourado);
         }
 
     </style>
@@ -518,6 +547,23 @@
                     </div>
                 </div>
                 <a href="" class="poppins-bold">CLIQUE AQUI PARA COMPRAR AGORA</a>
+            </div>
+            <div class="section-7">
+                <h1 class="pulsamento">TRABALHE POR CONTA PRÓPRIA</h1>
+                <p>Ao concluir este curso, além de receber seu certificado, você estará capacitado para gerenciar prestadores de serviços, liderar equipes, administrar as finanças do condomínio, resolver questões jurídicas e atrair clientes de forma eficiente.</p>
+                <h3>Você dominará habilidades essenciais para um síndico profissional, incluindo:</h3>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
             </div>
        </section>
        <footer></footer> 
