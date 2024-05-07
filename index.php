@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <style>
         :root{
@@ -186,6 +187,7 @@
         }
         .section-2 div h1{
             color: var(--azulEscuro);
+            margin-bottom: 0;
         }
         .section-2 div p{
             color: white;
@@ -206,6 +208,7 @@
         }
         .section-3 h1{
             color: var(--azulEscuro);
+            margin-bottom: 0;
         }
         .section-3 ul{
             padding: 0em 4em;
@@ -252,6 +255,7 @@
         }
         .section-4 div h1{
             text-align: center;
+            margin-bottom: 0;
         }
         .section-4 div p{
             text-align: justify;
@@ -307,9 +311,11 @@
         }
         .container__professor div h3{
             color: var(--dourado);
+            margin-bottom: 0;
         }
         .container__professor div p{
             text-align: justify;
+            margin-bottom: 0;
         }
         .container__professor span{
             font-weight: bold;
@@ -445,19 +451,38 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            padding: 0em 2em;
-            background-color: var(--azulEscuro);
-            
+            width: 100%;
+            padding: 0em 10em;
+            transition: 1s;
+            margin-bottom: .5em;
         }
-        .infoModulo button{
-            padding: 0em 1em;
+        .infoModulo:hover summary{
+            background-color: var(--azulCinzaEscuro);
+            cursor: pointer;
         }
-        .inforModulo button:after{
-            content: ' ';
-            background-color: #edad00;
-        }
-        .infoModulo h3{
+        .infoModulo summary{
             color: white;
+            padding: 1em;
+            background-color: var(--azulEscuro);
+            width: 100%;
+        }
+        .infoModulo ul{
+            margin-top: .5em;
+        }
+        .section-8 a{
+            font-size: 1.2em;
+            padding: .8em;
+            border-radius: .4em;
+            color: white;
+            width: 100vh;
+            text-align: center;
+            background-color: var(--verde);
+            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+            margin-top: 1em;
+            transition: .5s;
+        }
+        .section-8 a:hover{
+            background-color: var(--verdeClaro);
         }
 
     </style>
@@ -638,10 +663,60 @@
                 <h1>Qual a dinâmica das aulas?</h1>
                 <p>O curso é oferecido por meio de <span>videoaulas online</span>, permitindo que você assista e revise o conteúdo em qualquer lugar, a qualquer momento, e quantas vezes for necessário. <span>Este curso possui exercícios</span> para você colocar em prática seus conhecimentos teóricos. Você tem a liberdade de realizá-los e revisá-los quantas vezes considerar necessário.</p>
                 <h3>Ele está organizado em seis módulos estratégicos:</h3>
-                <div class="infoModulo">
-                    <button></button>
-                    <h3>1-Apresentação da Profissão de Síndico</h3>
-                </div>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 1 - Apresentação da Profissão de Síndico</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Noções Básicas da Profissão de Síndico</li>
+                        <li>Aula 2 - O que é Necessário Para ser Síndico</li>
+                        <li>Aula 3 - Funções do Síndico</li>
+                        <li>Exercícios do Módulo 1</li>
+                    </ul>
+                </details>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 2 - Gestão de Prestadores de Serviços</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Importância da Administradora</li>
+                        <li>Aula 2 - Alinhamento com Prestadores de Serviços</li>
+                        <li>Aula 3 - Contratos e Manuntenções</li>
+                        <li>Exercícios do Módulo 2</li>
+                    </ul>
+                </details>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 3 - Gestão de Pessoas</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Recrutamento e Contrato</li>
+                        <li>Aula 2 - Segurança, Saúde, Remuneração, Férias e Faltas Justificadas</li>
+                        <li>Aula 3 - Guarda de Documentos, Pagamentos, Normas e Procedimentos</li>
+                        <li>Exercícios do Módulo 3</li>
+                    </ul>
+                </details>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 4 - Gestão Financeira</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Receita do Condomínio e Controle de Recebimentos</li>
+                        <li>Aula 2 - Despesas e Controle de Pagamentos</li>
+                        <li>Aula 3 - Previsão Orçamentária e Prestação de Contas</li>
+                        <li>Exercícios do Módulo 4</li>
+                    </ul>
+                </details>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 5 - Jurídico</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Assembleia e Edital</li>
+                        <li>Aula 2 - Realização e Ata de Assembleia</li>
+                        <li>Aula 3 - Convenção de Condomínio e Outros</li>
+                        <li>Exercícios do Módulo 5</li>
+                    </ul>
+                </details>
+                <details class="infoModulo">
+                    <summary class="poppins-bold">Módulo 6 - Estratégias Para Captação de Clientes</summary>
+                    <ul class="montserrat-regular">
+                        <li>Aula 1 - Métodos de Captação de Clientes</li>
+                        <li>Aula 2 - Apresentação em Assembleia de Eleição de Síndico</li>
+                        <li>Exercícios do Módulo 6</li>
+                    </ul>
+                </details>
+                <a href="" class="poppins-bold">QUERO TER ACESSO A ESSES CONTEÚDOS</a>
             </div>
        </section>
        <footer></footer> 
