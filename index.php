@@ -253,7 +253,7 @@
         .section-4 div h1{
             text-align: center;
         }
-        .section-4 div h3{
+        .section-4 div p{
             text-align: justify;
             color: var(--azulEscuro);
         }
@@ -273,6 +273,9 @@
         }
         .section-5 h2{
             color: var(--dourado);
+        }
+        .section-5 h2 span{
+            text-decoration: underline;
         }
         .section-5 > div{
             display: flex;
@@ -303,10 +306,13 @@
             height: 100%;
         }
         .container__professor div h3{
-            color: var(--azulEscuro);
+            color: var(--dourado);
         }
         .container__professor div p{
             text-align: justify;
+        }
+        .container__professor span{
+            font-weight: bold;
         }
         .container__professor ul{
             list-style: none;
@@ -333,6 +339,9 @@
             color: white;
             text-align: center;
             text-decoration: underline;
+        }
+        .section-6 h2 span{
+            color: var(--verdeClaro)
         }
         .section-6 a{
             font-size: 1.2em;
@@ -386,9 +395,69 @@
         }
         .section-7 p{
             margin-bottom: 0em;
+            text-align: justify;
         }
         .section-7 h3{
             color: var(--dourado);
+            margin-bottom: .5em;
+            text-align: center;
+        }
+        .section-7 div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0em 14em;
+        }
+        .section-7 div img{
+            width: 30%;
+            transition: .5s;
+            margin: .5em;
+        }
+        .section-7 div img:hover{
+            scale: 102%;
+            box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Sessão 8 */
+        .section-8{
+            background-image: linear-gradient(180deg, white 0%, var(--dourado) 30%);
+            margin-top: -8em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 9em 4em 1em 4em;
+        }
+        .section-8 h1{
+            margin-bottom: 0;
+        }
+        .section-8 p{
+            color: white;
+            text-align: justify;
+        }
+        .section-8 p span{
+            font-weight: bold;
+        }
+        .infoModulo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0em 2em;
+            background-color: var(--azulEscuro);
+            
+        }
+        .infoModulo button{
+            padding: 0em 1em;
+        }
+        .inforModulo button:after{
+            content: ' ';
+            background-color: #edad00;
+        }
+        .infoModulo h3{
+            color: white;
         }
 
     </style>
@@ -446,7 +515,7 @@
             <div class="section-4">
                 <div>
                     <h1>Por que você deve</br>escolher nosso curso?</h1>
-                    <h3>Nosso curso de síndico profissional tem como objetivo te capacitar para enfrentar e resolver todos os desafios que possam surgir na gestão condominial, assegurando as melhores soluções possíveis.</h3>
+                    <p>Nosso curso de síndico profissional tem como objetivo te capacitar para enfrentar e resolver todos os desafios que possam surgir na gestão condominial, assegurando as melhores soluções possíveis.</p>
                 </div>
                 <div>
                     <video poster="assets/images/capas/beneficios-do-curso.png" controls>
@@ -455,7 +524,7 @@
                 </div>
             </div>
             <div class="section-5">
-                <h2>Nossos professores são especialistas e</br>experientes em suas respectivas áreas</h1>
+                <h2>Nossos professores são <span>especialistas e</br>experientes</span> em suas respectivas áreas</h1>
                 <div>
                     <div class="container__professor">
                         <div>
@@ -463,7 +532,7 @@
                         </div>
                         <div>
                             <h3>Nayne Cipriano</h3>
-                            <p>Responsável pelo módulo de 'Apresentação da Profissão de Síndico', Nayne é bacharel em Ciências Contábeis com mais de 6 anos de experiência. Ela atua como síndica profissional e administradora de condomínios na Ômega Administradora, reconhecida como uma das principais administradoras de condomínios em Uberlândia-MG.</p>
+                            <p><span>Responsável pelo módulo de 'Apresentação da Profissão de Síndico',</span> Nayne é bacharel em Ciências Contábeis com mais de 6 anos de experiência. Ela atua como síndica profissional e administradora de condomínios na Ômega Administradora, reconhecida como uma das principais administradoras de condomínios em Uberlândia-MG.</p>
                             <nav>
                                 <ul>
                                     <li>
@@ -479,7 +548,7 @@
                         </div>
                         <div>
                             <h3>Pollyanna Proietti</h3>
-                            <p>Ministrando o módulo 'Gestão de Prestadores de Serviços', Pollyanna também é bacharel em Ciências Contábeis e traz mais de 17 anos de experiência como síndica profissional e administradora de condomínios.</p>
+                            <p><span>Ministrando o módulo 'Gestão de Prestadores de Serviços',</span> Pollyanna também é bacharel em Ciências Contábeis e traz mais de 17 anos de experiência como síndica profissional e administradora de condomínios.</p>
                             <nav>
                                 <ul>
                                     <li>
@@ -495,7 +564,7 @@
                         </div>
                         <div>
                             <h3>Eliane Martins</h3>
-                            <p>Eliane liderará o módulo 'Gestão de Pessoas'. Com formações em Ciências Exatas, Ciências Contábeis e Direito, ela tem uma vasta experiência de mais de 29 anos na área contábil.</p>
+                            <p>Eliane <span>liderará o módulo 'Gestão de Pessoas'.</span> Com formações em Ciências Exatas, Ciências Contábeis e Direito, ela tem uma vasta experiência de mais de 29 anos na área contábil.</p>
                         </div>
                     </div>
                     <div class="container__professor">
@@ -504,7 +573,7 @@
                         </div>
                         <div>
                             <h3>Bruno Carvalho</h3>
-                            <p>Encarregado dos módulos 'Gestão Financeira' e 'Estratégias Para Captação de Clientes', Bruno possui uma sólida formação em Ciências Contábeis, Direito do Trabalho e Direito Previdenciário, além de um MBA em Contabilidade e Direito Tributário. Ele tem 9 anos de experiência como síndico e administrador de condomínios.</p>
+                            <p><span>Encarregado dos módulos 'Gestão Financeira' e 'Estratégias Para Captação de Clientes',</span> Bruno possui uma sólida formação em Ciências Contábeis, Direito do Trabalho e Direito Previdenciário, além de um MBA em Contabilidade e Direito Tributário. Ele tem 9 anos de experiência como síndico e administrador de condomínios.</p>
                             <nav>
                                 <ul>
                                     <li>
@@ -520,7 +589,7 @@
                         </div>
                         <div>
                             <h3>Clécio Nunes</h3>
-                            <p>Especialista que irá conduzir o módulo 'Jurídico', Clécio é bacharel em Direito com Pós-Graduação em Direito do Consumidor. Ele possui 18 anos de experiência no setor imobiliário, atuando como administrador de condomínios e síndico profissional.</p>
+                            <p>Especialista que <span>irá conduzir o módulo 'Jurídico',</span> Clécio é bacharel em Direito com Pós-Graduação em Direito do Consumidor. Ele possui 18 anos de experiência no setor imobiliário, atuando como administrador de condomínios e síndico profissional.</p>
                             <nav>
                                 <ul>
                                     <li>
@@ -533,7 +602,7 @@
                 </div>
             </div>
             <div class="section-6">
-                <h2>Compre o nosso curso e tenha uma documentação<br/>gratuita para a gestão condominial</h2>
+                <h2>Compre o nosso curso e tenha uma <span>documentação<br/>gratuita</span> para a gestão condominial</h2>
                 <div id="documentos-bonus">
                     <div>
                         <img src="assets/images/documentacao/previsao.png" alt="Foto representativa de uma previsão orçamentária">
@@ -553,16 +622,25 @@
                 <p>Ao concluir este curso, além de receber seu certificado, você estará capacitado para gerenciar prestadores de serviços, liderar equipes, administrar as finanças do condomínio, resolver questões jurídicas e atrair clientes de forma eficiente.</p>
                 <h3>Você dominará habilidades essenciais para um síndico profissional, incluindo:</h3>
                 <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="assets/images/habilidades/gestao-de-manutencoes.png" alt="Imagem representativa de gestão de manutenções">
+                    <img src="assets/images/habilidades/recrutamento-de-funcionarios.png" alt="Imagem representativa de recrutamento de funcionários">
+                    <img src="assets/images/habilidades/seguranca-e-saude-dos-trabalhadores.png" alt="Imagem representativa de segurança e saúde dos trabalhadores">
+                    <img src="assets/images/habilidades/previsao-orcamentaria.png" alt="Imagem representativa de previsão orçamentária">
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="assets/images/habilidades/prestacao-de-contas.png" alt="Imagem representativa de prestação de contas">
+                    <img src="assets/images/habilidades/contratos-de-trabalho.png" alt="Imagem representativa de contratos de trabalho">
+                    <img src="assets/images/habilidades/conducao-de-assembleia.png" alt="Imagem representativa de condução de assembleia">
+                    <img src="assets/images/habilidades/analise-de-convencao-de-condominios.png" alt="Imagem representativa de análise de convenção de condomínios">
+                </div>
+            </div>
+            <div class="section-8">
+                <h1>Qual a dinâmica das aulas?</h1>
+                <p>O curso é oferecido por meio de <span>videoaulas online</span>, permitindo que você assista e revise o conteúdo em qualquer lugar, a qualquer momento, e quantas vezes for necessário. <span>Este curso possui exercícios</span> para você colocar em prática seus conhecimentos teóricos. Você tem a liberdade de realizá-los e revisá-los quantas vezes considerar necessário.</p>
+                <h3>Ele está organizado em seis módulos estratégicos:</h3>
+                <div class="infoModulo">
+                    <button></button>
+                    <h3>1-Apresentação da Profissão de Síndico</h3>
                 </div>
             </div>
        </section>
