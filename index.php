@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon-landingPage.png" type="image/x-icon">
 
     <style>
         :root{
@@ -456,15 +456,16 @@
             transition: 1s;
             margin-bottom: .5em;
         }
-        .infoModulo:hover summary{
-            background-color: var(--azulCinzaEscuro);
-            cursor: pointer;
-        }
         .infoModulo summary{
             color: white;
             padding: 1em;
             background-color: var(--azulEscuro);
             width: 100%;
+            transition: .3s;
+        }
+        .infoModulo summary:hover{
+            background-color: var(--azulCinzaEscuro);
+            cursor: pointer;
         }
         .infoModulo ul{
             margin-top: .5em;
@@ -483,6 +484,52 @@
         }
         .section-8 a:hover{
             background-color: var(--verdeClaro);
+        }
+
+        /* Sessão 9 */
+        .section-9{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--dourado);
+        }
+        .section-9 h1{
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .section-9 p{
+            margin-top: 0;
+        }
+        .section-9 div{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #container__videosYoutube iframe{
+            width: 560px;
+            height: 315px;
+            border-radius: .4em;
+            margin: .5em;
+        }
+        .section-9 h3{
+            margin-bottom: 0;
+        }
+        #redes-sociais{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #redes-sociais a img{
+            margin-left: .5em;
+            transition: .5s;
+        }
+        #redes-sociais a:hover img{
+            scale: 110%;
         }
 
     </style>
@@ -717,6 +764,29 @@
                     </ul>
                 </details>
                 <a href="" class="poppins-bold">QUERO TER ACESSO A ESSES CONTEÚDOS</a>
+            </div>
+            <div class="section-9">
+                <h1>Complemente seu conhecimento<br/>com o nosso Podcast</h1>
+                <p>Confira nossos destaques</p>
+                <div id="container__videosYoutube">
+                    <iframe src="https://www.youtube.com/embed/4aX_zMV6IhI?si=aD7k52JJfuqKx1Dq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/9AIQkdITAbg?si=GXasJXjW0qQOEDqp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="container__videosYoutube">
+                    <iframe src="https://www.youtube.com/embed/KB8zrvR-RUc?si=V5SK5H8gwf5DACV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/7wtoMNR0OsQ?si=AjFa0oYWzu5C7HkO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h3>Acesse nossas redes sociais:</h3>
+                <div id="redes-sociais">
+                    <a href=""><img src="assets/images/icones/icons8-instagram-48.png" alt="Link do perfil da Ômega Educa no Instagram" style="width: 38px;"></a>
+                    <a href=""><img src="assets/images/icones/icons8-tiktok-48.png" alt="Link do perfil da Ômega Educa no TikTok"></a>
+                    <a href=""><img src="assets/images/icones/icons8-youtube-48.png" alt="Link do canal da Ômega Educa no Youtube"></a>
+                    <a href=""><img src="assets/images/icones/icons8-spotify-48.png" alt="Link do perfil da Ômega Educa no Spotify"></a>
+                    <a href=""><img src="assets/images/icones/icons8-facebook-48.png" alt="Link da página da Ômega Educa no Facebook"></a>
+                </div>
+            </div>
+            <div class="section-10">
+                <h1>Confira os depoimentos das pessoas</br>que já concluíram nosso curso</h1>
             </div>
        </section>
        <footer></footer> 
