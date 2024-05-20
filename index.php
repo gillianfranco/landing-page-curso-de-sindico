@@ -978,10 +978,6 @@
                         </tr>
                         <tr>
                             <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
-                            <td class="subtitulo"><p>Prova Selo de Ouro</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
                             <td><p>Documentação Bônus</p></td>
                         </tr>
                     </table>
