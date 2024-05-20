@@ -565,7 +565,73 @@
             }
         
         /* Sessão 11 */
-            
+            .section-11{
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 0em 16em 1em 16em;
+            }
+            .section-11 h1{
+                color: var(--dourado);
+            }
+            .oferta{
+                width: 60%;
+                background-color: var(--azulEscuro);
+                padding: 1em;
+                border-radius: .4em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .oferta h1{
+                margin: .5em 0em;
+                text-align: center;
+                color: var(--dourado);
+            }
+            .preco{
+                width: 100%;
+                background-color: var(--dourado);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: .4em;
+            }
+            .preco p.montserrat-bold{
+                font-size: 1.8em;
+                margin: .5em 0em 0em 0em;
+            }
+            .preco p{
+                margin-top: 0em;
+            }
+            table{
+                width: 90%;
+                margin-top: 1em;
+            }
+            table p{
+                color: white;
+            }
+            .oferta a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                text-align: center;
+                background-color: var(--verde);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                margin-top: 1em;
+                transition: .5s;
+                width: 95%;
+            }
+            .oferta a:hover{
+                background-color: var(--verdeClaro);
+            }
+        
+        /* Sessão 12 */
+        
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -889,7 +955,39 @@
                     </div>
                 </div>
             </div>
-            <div class="section-11"></div>
+            <div class="section-11">
+                <h1 class="pulsamento">APROVEITE O PREÇO E COMECE HOJE</h1>
+                <div class="oferta">
+                    <h1>Curso de Síndico<br/>Profissional Básico</h1>
+                    <div class="preco">
+                        <p class="montserrat-bold">12x R$63,18</p>
+                        <p class="">À vista R$633,00</p>
+                    </div>
+                    <table>
+                        <tr>
+                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                            <td class="subtitulo"><p>Videoaulas</p></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                            <td class="subtitulo"><p>Questões</p></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                            <td class="subtitulo"><p>Certificado de Conclusão</p></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                            <td class="subtitulo"><p>Prova Selo de Ouro</p></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                            <td><p>Documentação Bônus</p></td>
+                        </tr>
+                    </table>
+                    <a href="" class="poppins-bold pulsamento">COMPRAR</a>
+                </div>
+            </div>
        </section>
        <footer></footer> 
     </main>
