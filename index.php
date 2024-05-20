@@ -129,408 +129,443 @@
         }
 
         /* Section 1 */
-        .section-1{
-            height: 100vh;
-            background: var(--azulEscuro);
-            background: linear-gradient(180deg, var(--azulEscuro) 0%, var(--azulCinzaEscuro) 70%, var(--azulCinzaClaro) 100%);
-            padding: 1em 0em;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .section-1 h1{
-            font-size: 2em;
-            text-align: center;
-            color: white;
-        }
-        .section-1 h1 span{
-            color: var(--dourado);
-        }
-        .section-1 div{
-            width: 100vh;
-        }
-        .section-1 div video{
-            width: 100%;
-            border-radius: .4em;
-        }
-        .section-1 a{
-            font-size: 1.2em;
-            padding: .8em;
-            border-radius: .4em;
-            color: white;
-            width: 100vh;
-            text-align: center;
-            background-color: var(--verde);
-            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
-            transition: .5s;
-        }
-        .section-1 a:hover{
-            background-color: var(--verdeClaro);
-        }
+            .section-1{
+                height: 100vh;
+                background: var(--azulEscuro);
+                background: linear-gradient(180deg, var(--azulEscuro) 0%, var(--azulCinzaEscuro) 70%, var(--azulCinzaClaro) 100%);
+                padding: 1em 0em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .section-1 h1{
+                font-size: 2em;
+                text-align: center;
+                color: white;
+            }
+            .section-1 h1 span{
+                color: var(--dourado);
+            }
+            .section-1 div{
+                width: 100vh;
+            }
+            .section-1 div video{
+                width: 100%;
+                border-radius: .4em;
+            }
+            .section-1 a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                width: 100vh;
+                text-align: center;
+                background-color: var(--verde);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                transition: .5s;
+            }
+            .section-1 a:hover{
+                background-color: var(--verdeClaro);
+            }
 
         /* Sessão 2 */
-        .section-2{
-            padding: 0em 2em;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--dourado);
-        }
-        .section-2 div{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0em 1em;
-        }
-        .section-2 div h1{
-            color: var(--azulEscuro);
-            margin-bottom: 0;
-        }
-        .section-2 div p{
-            color: white;
-            text-align: justify;
-        }
-        #imgProfessoresJuntos{
-            width: 100%;
-        }
+            .section-2{
+                padding: 0em 2em;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--dourado);
+            }
+            .section-2 div{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0em 1em;
+            }
+            .section-2 div h1{
+                color: var(--azulEscuro);
+                margin-bottom: 0;
+            }
+            .section-2 div p{
+                color: white;
+                text-align: justify;
+            }
+            #imgProfessoresJuntos{
+                width: 100%;
+            }
 
         /* Sessão 3 */
-        .section-3{
-            padding: 2em;
-            background-color: var(--dourado);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .section-3 h1{
-            color: var(--azulEscuro);
-            margin-bottom: 0;
-        }
-        .section-3 ul{
-            padding: 0em 4em;
-        }
-        .section-3 ul li{
-            color: white;
-            font-size: 1em;
-            padding-bottom: 1em;
-        }
-        .section-3 ul li span{
-            font-weight: 700;
-            text-decoration: underline;
-        }
-        .section-3 a{
-            font-size: 1.2em;
-            padding: .8em;
-            border-radius: .4em;
-            color: white;
-            width: 100vh;
-            text-align: center;
-            background-color: var(--verde);
-            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
-            transition: .5s;
-        }
-        .section-3 a:hover{
-            background-color: var(--verdeClaro);
-        }
+            .section-3{
+                padding: 2em;
+                background-color: var(--dourado);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .section-3 h1{
+                color: var(--azulEscuro);
+                margin-bottom: 0;
+            }
+            .section-3 ul{
+                padding: 0em 4em;
+            }
+            .section-3 ul li{
+                color: white;
+                font-size: 1em;
+                padding-bottom: 1em;
+            }
+            .section-3 ul li span{
+                font-weight: 700;
+                text-decoration: underline;
+            }
+            .section-3 a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                width: 100vh;
+                text-align: center;
+                background-color: var(--verde);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                transition: .5s;
+            }
+            .section-3 a:hover{
+                background-color: var(--verdeClaro);
+            }
 
         /* Sessão 4 */
-        .section-4{
-            padding: 2em 1em;
-            background: var(--dourado);
-            background: linear-gradient(180deg, var(--dourado) 0%, white 30%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .section-4 div{
-            width: 50%;
-            padding: 0em 1em;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .section-4 div h1{
-            text-align: center;
-            margin-bottom: 0;
-        }
-        .section-4 div p{
-            text-align: justify;
-            color: var(--azulEscuro);
-        }
-        .section-4 div video{
-            width: 100%;
-            border-radius: .4em;
-        }
+            .section-4{
+                padding: 2em 1em;
+                background: var(--dourado);
+                background: linear-gradient(180deg, var(--dourado) 0%, white 30%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .section-4 div{
+                width: 50%;
+                padding: 0em 1em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .section-4 div h1{
+                text-align: center;
+                margin-bottom: 0;
+            }
+            .section-4 div p{
+                text-align: justify;
+                color: var(--azulEscuro);
+            }
+            .section-4 div video{
+                width: 100%;
+                border-radius: .4em;
+            }
 
         /* Sessão 5 */
-        .section-5{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: white;
-            width: 100%;
-            padding: 0em 0em 1em 0em;
-        }
-        .section-5 h2{
-            color: var(--dourado);
-        }
-        .section-5 h2 span{
-            text-decoration: underline;
-        }
-        .section-5 > div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-        .container__professor{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 0em 1em;
-            width: 100%;
-        }
-        .container__professor div{
-            width: 50%;
-            height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0em 4em;
+            .section-5{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: white;
+                width: 100%;
+                padding: 0em 0em 1em 0em;
+            }
+            .section-5 h2{
+                color: var(--dourado);
+            }
+            .section-5 h2 span{
+                text-decoration: underline;
+            }
+            .section-5 > div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .container__professor{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0em 1em;
+                width: 100%;
+            }
+            .container__professor div{
+                width: 50%;
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0em 4em;
 
-        }
-        .container__professor div > img{
-            height: 100%;
-        }
-        .container__professor div h3{
-            color: var(--dourado);
-            margin-bottom: 0;
-        }
-        .container__professor div p{
-            text-align: justify;
-            margin-bottom: 0;
-        }
-        .container__professor span{
-            font-weight: bold;
-        }
-        .container__professor ul{
-            list-style: none;
-        }
-        .container__professor li a img{
-            width: 50px;
-            transition: .2s;
-        }
-        .container__professor li a img:hover{
-            scale: 101%;
-        }
+            }
+            .container__professor div > img{
+                height: 100%;
+            }
+            .container__professor div h3{
+                color: var(--dourado);
+                margin-bottom: 0;
+            }
+            .container__professor div p{
+                text-align: justify;
+                margin-bottom: 0;
+            }
+            .container__professor span{
+                font-weight: bold;
+            }
+            .container__professor ul{
+                list-style: none;
+            }
+            .container__professor li a img{
+                width: 50px;
+                transition: .2s;
+            }
+            .container__professor li a img:hover{
+                scale: 101%;
+            }
         
         /* Sessão 6 */
-        .section-6{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: var(--azulEscuro);
-            width: 100%;
-            padding: 2em 0em;
-            box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.5);
-        }
-        .section-6 h2{
-            color: white;
-            text-align: center;
-            text-decoration: underline;
-        }
-        .section-6 h2 span{
-            color: var(--verdeClaro)
-        }
-        .section-6 a{
-            font-size: 1.2em;
-            padding: .8em;
-            border-radius: .4em;
-            color: white;
-            width: 100vh;
-            text-align: center;
-            background-color: var(--verde);
-            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
-            transition: .5s;
-        }
-        .section-6 a:hover{
-            background-color: var(--verdeClaro);
-        }
-        #documentos-bonus{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0em 15em 1em 15em;
-        }
-        #documentos-bonus > div{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            padding-bottom: 1em;
-        }
-        #documentos-bonus div img{
-            width: 30%;
-            transition: .5s;
-        }
-        #documentos-bonus div img:hover{
-            scale: 101%;
-        }
+            .section-6{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: var(--azulEscuro);
+                width: 100%;
+                padding: 2em 0em;
+                box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.5);
+            }
+            .section-6 h2{
+                color: white;
+                text-align: center;
+                text-decoration: underline;
+            }
+            .section-6 h2 span{
+                color: var(--verdeClaro)
+            }
+            .section-6 a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                width: 100vh;
+                text-align: center;
+                background-color: var(--verde);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                transition: .5s;
+            }
+            .section-6 a:hover{
+                background-color: var(--verdeClaro);
+            }
+            #documentos-bonus{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0em 15em 1em 15em;
+            }
+            #documentos-bonus > div{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                padding-bottom: 1em;
+            }
+            #documentos-bonus div img{
+                width: 30%;
+                transition: .5s;
+            }
+            #documentos-bonus div img:hover{
+                scale: 101%;
+            }
 
         /* Sessão 7 */
-        .section-7{
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            padding: 1em 4em;
-        }
-        .section-7 h1{
-            margin-bottom: 0em;
-            color: var(--dourado);
-        }
-        .section-7 p{
-            margin-bottom: 0em;
-            text-align: justify;
-        }
-        .section-7 h3{
-            color: var(--dourado);
-            margin-bottom: .5em;
-            text-align: center;
-        }
-        .section-7 div{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            padding: 0em 14em;
-        }
-        .section-7 div img{
-            width: 30%;
-            transition: .5s;
-            margin: .5em;
-        }
-        .section-7 div img:hover{
-            scale: 102%;
-            box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.5);
-        }
+            .section-7{
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                padding: 1em 4em;
+            }
+            .section-7 h1{
+                margin-bottom: 0em;
+                color: var(--dourado);
+            }
+            .section-7 p{
+                margin-bottom: 0em;
+                text-align: justify;
+            }
+            .section-7 h3{
+                color: var(--dourado);
+                margin-bottom: .5em;
+                text-align: center;
+            }
+            .section-7 div{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 0em 14em;
+            }
+            .section-7 div img{
+                width: 30%;
+                transition: .5s;
+                margin: .5em;
+            }
+            .section-7 div img:hover{
+                scale: 102%;
+                box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.5);
+            }
 
         /* Sessão 8 */
-        .section-8{
-            background-image: linear-gradient(180deg, white 0%, var(--dourado) 30%);
-            margin-top: -8em;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            padding: 9em 4em 1em 4em;
-        }
-        .section-8 h1{
-            margin-bottom: 0;
-        }
-        .section-8 p{
-            color: white;
-            text-align: justify;
-        }
-        .section-8 p span{
-            font-weight: bold;
-        }
-        .infoModulo{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            width: 100%;
-            padding: 0em 10em;
-            transition: 1s;
-            margin-bottom: .5em;
-        }
-        .infoModulo summary{
-            color: white;
-            padding: 1em;
-            background-color: var(--azulEscuro);
-            width: 100%;
-            transition: .3s;
-        }
-        .infoModulo summary:hover{
-            background-color: var(--azulCinzaEscuro);
-            cursor: pointer;
-        }
-        .infoModulo ul{
-            margin-top: .5em;
-        }
-        .section-8 a{
-            font-size: 1.2em;
-            padding: .8em;
-            border-radius: .4em;
-            color: white;
-            width: 100vh;
-            text-align: center;
-            background-color: var(--verde);
-            box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
-            margin-top: 1em;
-            transition: .5s;
-        }
-        .section-8 a:hover{
-            background-color: var(--verdeClaro);
-        }
+            .section-8{
+                background-image: linear-gradient(180deg, white 0%, var(--dourado) 30%);
+                margin-top: -8em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 9em 4em 1em 4em;
+            }
+            .section-8 h1{
+                margin-bottom: 0;
+            }
+            .section-8 p{
+                color: white;
+                text-align: justify;
+            }
+            .section-8 p span{
+                font-weight: bold;
+            }
+            .infoModulo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+                padding: 0em 10em;
+                transition: 1s;
+                margin-bottom: .5em;
+            }
+            .infoModulo summary{
+                color: white;
+                padding: 1em;
+                background-color: var(--azulEscuro);
+                width: 100%;
+                transition: .3s;
+            }
+            .infoModulo summary:hover{
+                background-color: var(--azulCinzaEscuro);
+                cursor: pointer;
+            }
+            .infoModulo ul{
+                margin-top: .5em;
+            }
+            .section-8 a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                width: 100vh;
+                text-align: center;
+                background-color: var(--verde);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                margin-top: 1em;
+                transition: .5s;
+            }
+            .section-8 a:hover{
+                background-color: var(--verdeClaro);
+            }
 
         /* Sessão 9 */
-        .section-9{
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--dourado);
-        }
-        .section-9 h1{
-            margin-bottom: 0;
-            text-align: center;
-        }
-        .section-9 p{
-            margin-top: 0;
-        }
-        .section-9 div{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        #container__videosYoutube iframe{
-            width: 560px;
-            height: 315px;
-            border-radius: .4em;
-            margin: .5em;
-        }
-        .section-9 h3{
-            margin-bottom: 0;
-        }
-        #redes-sociais{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        #redes-sociais a img{
-            margin-left: .5em;
-            transition: .5s;
-        }
-        #redes-sociais a:hover img{
-            scale: 110%;
-        }
+            .section-9{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--dourado);
+            }
+            .section-9 h1{
+                margin-bottom: 0;
+                text-align: center;
+            }
+            .section-9 p{
+                margin-top: 0;
+            }
+            .section-9 div{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #container__videosYoutube iframe{
+                width: 560px;
+                height: 315px;
+                border-radius: .4em;
+                margin: .5em;
+            }
+            .section-9 h3{
+                margin-bottom: 0;
+            }
+            #redes-sociais{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #redes-sociais a img{
+                margin-left: .5em;
+                transition: .5s;
+                margin-bottom: 1em;
+            }
+            #redes-sociais a:hover img{
+                scale: 110%;
+            }
+
+        /* Sessão 10 */
+            .section-10{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 0em 16em 1em 16em;
+
+            }
+            .section-10 h1{
+                color: var(--dourado);
+                text-align: center;
+            }
+            .container__depoimentos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: .5em;
+            }
+            .depoimento{
+                background-color: white;
+                border-radius: .4em;
+                width: 48%;
+                padding: 1em;
+                transition: .5s;
+            }
+            .depoimento:hover{
+                scale: 101%;
+            }
+        
+        /* Sessão 11 */
+            
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -787,7 +822,74 @@
             </div>
             <div class="section-10">
                 <h1>Confira os depoimentos das pessoas</br>que já concluíram nosso curso</h1>
+                <div>
+                    <div class="container__depoimentos">
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos!</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsam explicabo id cum reprehenderit asperiores harum. Accusamus minima ut pariatur, soluta iure tempore, distinctio, impedit ipsa recusandae praesentium error cupiditate!</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__depoimentos">
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, alias optio laborum libero repudiandae assumenda suscipit quaerat ab inventore, quo possimus veritatis? Amet ratione libero dicta alias iste nemo explicabo.</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos!</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__depoimentos">
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos!</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione pariatur in nesciunt? Nemo architecto quidem suscipit eius officia! Eius expedita culpa harum sint doloremque nobis esse qui deserunt quia assumenda?</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__depoimentos">
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos!</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="depoimento">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum! Doloribus, maxime molestiae laudantium facere cumque fuga, accusantium optio doloremque repellat nemo fugiat enim laboriosam veniam asperiores aspernatur cupiditate quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione pariatur in nesciunt? Nemo architecto quidem suscipit eius officia! Eius expedita culpa harum sint doloremque nobis esse qui deserunt quia assumenda?</p>
+                            <div>
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="section-11"></div>
        </section>
        <footer></footer> 
     </main>
