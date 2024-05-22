@@ -306,7 +306,6 @@
                 justify-content: center;
                 align-items: center;
                 padding: 0em 4em;
-
             }
             .container__professor div > img{
                 height: 100%;
@@ -322,15 +321,13 @@
             .container__professor span{
                 font-weight: bold;
             }
-            .container__professor ul{
-                list-style: none;
-            }
-            .container__professor li a img{
+            .container__professor a img{
+                margin-top: 1em;
                 width: 50px;
-                transition: .2s;
+                transition: .5s;
             }
-            .container__professor li a img:hover{
-                scale: 101%;
+            .container__professor a img:hover{
+                scale: 110%;
             }
         
         /* Sessão 6 */
@@ -797,13 +794,7 @@
                         <div>
                             <h3>Nayne Cipriano</h3>
                             <p><span>Responsável pelo módulo de 'Apresentação da Profissão de Síndico',</span> Nayne é bacharel em Ciências Contábeis com mais de 6 anos de experiência. Ela atua como síndica profissional e administradora de condomínios na Ômega Administradora, reconhecida como uma das principais administradoras de condomínios em Uberlândia-MG.</p>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.instagram.com/nayne.cipriano/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <a href="https://www.instagram.com/nayne.cipriano/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
                         </div>
                     </div>
                     <div class="container__professor">
@@ -813,13 +804,7 @@
                         <div>
                             <h3>Pollyanna Proietti</h3>
                             <p><span>Ministrando o módulo 'Gestão de Prestadores de Serviços',</span> Pollyanna também é bacharel em Ciências Contábeis e traz mais de 17 anos de experiência como síndica profissional e administradora de condomínios.</p>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.instagram.com/pollyannaproietti/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <a href="https://www.instagram.com/pollyannaproietti/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
                         </div>
                     </div>
                     <div class="container__professor">
@@ -838,13 +823,7 @@
                         <div>
                             <h3>Bruno Carvalho</h3>
                             <p><span>Encarregado dos módulos 'Gestão Financeira' e 'Estratégias Para Captação de Clientes',</span> Bruno possui uma sólida formação em Ciências Contábeis, Direito do Trabalho e Direito Previdenciário, além de um MBA em Contabilidade e Direito Tributário. Ele tem 9 anos de experiência como síndico e administrador de condomínios.</p>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.instagram.com/brunopositivo/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <a href="https://www.instagram.com/brunopositivo/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
                         </div>
                     </div>
                     <div class="container__professor">
@@ -854,13 +833,7 @@
                         <div>
                             <h3>Clécio Nunes</h3>
                             <p>Especialista que <span>irá conduzir o módulo 'Jurídico',</span> Clécio é bacharel em Direito com Pós-Graduação em Direito do Consumidor. Ele possui 18 anos de experiência no setor imobiliário, atuando como administrador de condomínios e síndico profissional.</p>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.instagram.com/clecio_souza_nunes/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <a href="https://www.instagram.com/clecio_souza_nunes/"><img class="logo-instagram" src="assets/images/icones/icons8-instagram-48.png" alt="Ícone Instagram"></a>
                         </div>
                     </div>
                 </div>
