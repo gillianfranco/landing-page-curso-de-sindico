@@ -17,6 +17,7 @@
             --azulCinzaClaro: #475262;
             --verde: #238636;
             --verdeClaro: #2CA142;
+            --verdeWhatsApp: #40c351;
         }
         .poppins-regular{
             font-family: "Poppins", sans-serif;
@@ -128,7 +129,7 @@
             animation: pulsamento 2s infinite;
         }
 
-        /* Section 1 */
+        /* Sessão 1 */
             .section-1{
                 height: 100vh;
                 background: var(--azulEscuro);
@@ -519,18 +520,18 @@
             .section-9 h3{
                 margin-bottom: 0;
             }
-            #redes-sociais{
+            .redes-sociais{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
             }
-            #redes-sociais a img{
+            .redes-sociais a img{
                 margin-left: .5em;
                 transition: .5s;
                 margin-bottom: 1em;
             }
-            #redes-sociais a:hover img{
+            .redes-sociais a:hover img{
                 scale: 110%;
             }
 
@@ -642,7 +643,7 @@
                 align-items: center;
                 flex-direction: column;
                 background-color: white;
-                padding: 2em 4em 0em 4em;
+                padding: 2em 4em 1em 4em;
             }
             .section-12 h1{
                 color: var(--dourado);
@@ -701,26 +702,49 @@
 
         /* Sessão 13 */
             .section-13{
-                margin-top: -10em;
-                height: 100vh;
-                background: linear-gradient(180deg, white 0%, var(--dourado) 30%);
+                background: linear-gradient(180deg, var(--azulEscuro) 0%, var(--azulCinzaEscuro) 70%, var(--azulCinzaClaro) 100%);
                 display: flex;
-                flex-direction: column;
                 align-items: center;
-                padding: 10em;
+                flex-direction: column;
+                padding: 1em 10em;
             }
             .section-13 h1{
                 margin-bottom: 0;
+                color: var(--dourado);
+            }
+            .section-13 > a{
+                font-size: 1.2em;
+                padding: .8em;
+                border-radius: .4em;
+                color: white;
+                text-align: center;
+                background-color: var(--verdeWhatsApp);
+                box-shadow: 0px 1px 6px 2.5px rgba(0, 0, 0, 0.2);
+                margin-top: 1em;
+                transition: .5s;
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 1em;
+            }
+            .section-13 > a:hover{
+                background-color: #44d657;
+            }
+            .section-13 > a img{
+                margin-left: 1em;
+            }
+            .section-13 > img{
+                width: 30%;
+                margin-bottom: 1em;
             }
             .section-13 p{
-                font-size: 1.2em;
-                text-align: justify;
+                margin: .5em;
                 color: white;
             }
-        
-        /* Sessão 14 */
 
-
+    
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
 </head>
@@ -942,7 +966,7 @@
                     <iframe src="https://www.youtube.com/embed/7wtoMNR0OsQ?si=AjFa0oYWzu5C7HkO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <h3>Acesse nossas redes sociais:</h3>
-                <div id="redes-sociais">
+                <div class="redes-sociais">
                     <a href=""><img src="assets/images/icones/icons8-instagram-48.png" alt="Link do perfil da Ômega Educa no Instagram" style="width: 38px;"></a>
                     <a href=""><img src="assets/images/icones/icons8-tiktok-48.png" alt="Link do perfil da Ômega Educa no TikTok"></a>
                     <a href=""><img src="assets/images/icones/icons8-youtube-48.png" alt="Link do canal da Ômega Educa no Youtube"></a>
@@ -1156,13 +1180,19 @@
                 </div>
             </div>
             <div class="section-13">
-                <h1>Como funciona a compra do curso?</h1>
-                <p>
-                    Ao clicar no botão 'Comprar', você será redirecionado para a página de compra da Hotmart, uma plataforma 100% segura onde você terá a opção de efetuar o pagamento por meio de cartão de crédito ou PIX, com a possibilidade de parcelamento em até 12 vezes. Após a confirmação do pagamento, um e-mail será enviado a você com todas as instruções necessárias para acessar o curso imediatamente.
-                </p>
-            </div>
-            <div class="section-14">
-
+                <h1>Ficou com alguma dúvida?</h1>
+                <a href="" class="poppins-bold">ENTRE EM CONTATO CONOSCO<img src="assets/images/icones/icons8-whatsapp-48.png" alt="Logotipo do WhatsApp"></a>
+                <img src="assets/images/logomarcas/LogoOmega.png" alt="Logotipo da Ômega Educa">
+                <div class="redes-sociais">
+                    <a href=""><img src="assets/images/icones/icons8-instagram-48.png" alt="Link do perfil da Ômega Educa no Instagram" style="width: 38px;"></a>
+                    <a href=""><img src="assets/images/icones/icons8-tiktok-48.png" alt="Link do perfil da Ômega Educa no TikTok"></a>
+                    <a href=""><img src="assets/images/icones/icons8-youtube-48.png" alt="Link do canal da Ômega Educa no Youtube"></a>
+                    <a href=""><img src="assets/images/icones/icons8-spotify-48.png" alt="Link do perfil da Ômega Educa no Spotify"></a>
+                    <a href=""><img src="assets/images/icones/icons8-facebook-48.png" alt="Link da página da Ômega Educa no Facebook"></a>
+                </div>
+                <p class="montserrat-bold">CNPJ: 44.813.321/0001-80</p>
+                <p class="montserrat-bold">Sede: R. Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
+                <p class="montserrat-bold">TODOS OS DIRETOS RESERVADOS - ÔMEGA ADMINISTRADORA E CONSULTORIA ©2024</p>
             </div>
        </section>
        <footer></footer> 
