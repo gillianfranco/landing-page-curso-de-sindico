@@ -563,6 +563,9 @@
             .depoimento:hover{
                 scale: 101%;
             }
+            .depoimento p{
+                text-align: justify;
+            }
         
         /* Sessão 11 */
             .section-11{
@@ -631,68 +634,90 @@
             }
         
         /* Sessão 12 */
-        .section-12{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: white;
-            padding: 2em 4em 1em 4em;
-        }
-        .section-12 h1{
-            color: var(--dourado);
-            margin-top: 0;
-        }
-        .section-12 > div{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            padding-bottom: 1em;
-        }
-        .section-12 div > div{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 50%;
-        }
-        .section-12 div > div p{
-            text-align: justify;
-        }
-        .section-12 .oferta{
-            width: 75%;
-            background-color: var(--azulEscuro);
-            padding: 1em;
-            border-radius: .4em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .section-12 .preco{
-            width: 100%;
-        }
-        .section-12 details{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            width: 100%;
-            transition: 1s;
-            margin-bottom: .5em;
-        }
-        .section-12 summary{
-            color: white;
-            padding: 1em;
-            background-color: var(--azulEscuro);
-            width: 100%;
-            transition: .3s;
-        }
-        .section-12 summary:hover{
-            background-color: var(--azulCinzaEscuro);
-            cursor: pointer;
-        }
-        .section-12 ul{
-            margin-top: .5em;
-        }  
+            .section-12{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: white;
+                padding: 2em 4em 0em 4em;
+            }
+            .section-12 h1{
+                color: var(--dourado);
+                margin-top: 0;
+            }
+            .section-12 > div{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding-bottom: 1em;
+            }
+            .section-12 div > div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+            }
+            .section-12 div > div p{
+                text-align: justify;
+            }
+            .section-12 .oferta{
+                width: 75%;
+                background-color: var(--azulEscuro);
+                padding: 1em;
+                border-radius: .4em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .section-12 .preco{
+                width: 100%;
+            }
+            .section-12 details{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+                transition: 1s;
+                margin-bottom: .5em;
+            }
+            .section-12 summary{
+                color: white;
+                padding: 1em;
+                background-color: var(--azulEscuro);
+                width: 100%;
+                transition: .3s;
+            }
+            .section-12 summary:hover{
+                background-color: var(--azulCinzaEscuro);
+                cursor: pointer;
+            }
+            .section-12 ul{
+                margin-top: .5em;
+            }  
+
+        /* Sessão 13 */
+            .section-13{
+                margin-top: -10em;
+                height: 100vh;
+                background: linear-gradient(180deg, white 0%, var(--dourado) 30%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10em;
+            }
+            .section-13 h1{
+                margin-bottom: 0;
+            }
+            .section-13 p{
+                font-size: 1.2em;
+                text-align: justify;
+                color: white;
+            }
+        
+        /* Sessão 14 */
+        
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -1151,6 +1176,12 @@
                         <p>Além da documentação plus, caso você queira uma ajuda personalizada quando já estiver trabalhando como síndico, essa promoção é para você! Durante 6 meses de mentoria, você terá acesso a um suporte ilimitado dos professores por e-mail, recebendo respostas em até 2 dias úteis.</p>
                     </div>
                 </div>
+            </div>
+            <div class="section-13">
+                <h1>Como funciona a compra do curso?</h1>
+                <p>
+                    Ao clicar no botão 'Comprar', você será redirecionado para a página de compra da Hotmart, uma plataforma 100% segura onde você terá a opção de efetuar o pagamento por meio de cartão de crédito ou PIX, com a possibilidade de parcelamento em até 12 vezes. Após a confirmação do pagamento, um e-mail será enviado a você com todas as instruções necessárias para acessar o curso imediatamente.
+                </p>
             </div>
        </section>
        <footer></footer> 
