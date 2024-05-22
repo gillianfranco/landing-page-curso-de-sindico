@@ -576,7 +576,7 @@
             .section-11 h1{
                 color: var(--dourado);
             }
-            .oferta{
+            .section-11 .oferta{
                 width: 60%;
                 background-color: var(--azulEscuro);
                 padding: 1em;
@@ -631,7 +631,68 @@
             }
         
         /* Sessão 12 */
-            
+        .section-12{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+            padding: 2em 4em 1em 4em;
+        }
+        .section-12 h1{
+            color: var(--dourado);
+            margin-top: 0;
+        }
+        .section-12 > div{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-bottom: 1em;
+        }
+        .section-12 div > div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+        }
+        .section-12 div > div p{
+            text-align: justify;
+        }
+        .section-12 .oferta{
+            width: 75%;
+            background-color: var(--azulEscuro);
+            padding: 1em;
+            border-radius: .4em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .section-12 .preco{
+            width: 100%;
+        }
+        .section-12 details{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            transition: 1s;
+            margin-bottom: .5em;
+        }
+        .section-12 summary{
+            color: white;
+            padding: 1em;
+            background-color: var(--azulEscuro);
+            width: 100%;
+            transition: .3s;
+        }
+        .section-12 summary:hover{
+            background-color: var(--azulCinzaEscuro);
+            cursor: pointer;
+        }
+        .section-12 ul{
+            margin-top: .5em;
+        }  
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -982,6 +1043,113 @@
                         </tr>
                     </table>
                     <a href="" class="poppins-bold pulsamento">COMPRAR</a>
+                </div>
+            </div>
+            <div class="section-12">
+                <h1>Quer mais benefícios?</h1>
+                <div>
+                    <div>
+                        <p>Nessa promoção, oferecemos uma documentação plus que contém 21 documentos que vão te auxiliar ainda mais no exercício da profissão de síndico profissional.</p>
+                        <details>
+                            <summary class="poppins-bold">Veja quais são os documentos aqui</summary>
+                            <ul class="montserrat-regular">
+                                <li>Ata de Assembleia Geral Ordinária de Instalação do Condomínio</li>
+                                <li>Ata de Assembleia Geral Ordinária</li>
+                                <li>Ata de Assembleia Geral Ordinária Virtual</li>
+                                <li>Ata de Assembleia Geral Extraordinária</li>
+                                <li>Ata de Assembleia Geral Extraordinária Virtual</li>
+                                <li>Edital de Convocação para Assembleia Geral Ordinária de Instalação do Condomínio</li>
+                                <li>Edital de Convocação para Assembleia Geral Ordinária</li>
+                                <li>Edital de Convocação para Assembleia Geral Ordinária Virtual</li>
+                                <li>Edital de Convocação para Assembleia Geral Extraordinária</li>
+                                <li>Edital de Convocação para Assembleia Geral Extraordinária Virtual</li>
+                                <li>Declaração de Nada Consta</li>
+                                <li>Modelo de Notificação de Multa</li>
+                                <li>Checklist de Vistoria de Condomínio</li>
+                                <li>Ficha de Admissão</li>
+                                <li>Lista de Presença</li>
+                                <li>Ordem de Serviço</li>
+                                <li>Planilha e Controle da Limpeza</li>
+                                <li>Previsão Orçamentária</li>
+                                <li>Termo de Responsabilidade e Compromisso</li>
+                                <li>Termo de Autorização de Uso de Imagem</li>
+                                <li>Regimento Interno</li>
+                            </ul>
+                        </details>
+                    </div>
+                    <div>
+                        <div class="oferta">
+                            <h1>Curso de Síndico<br/>Profissional Plus</h1>
+                            <div class="preco">
+                                <p class="montserrat-bold">12x R$99,40</p>
+                                <p class="">À vista R$996,00</p>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Videoaulas</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Questões</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Certificado de Conclusão</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td><p>Documentação Bônus</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td><p>Documentação Plus</p></td>
+                                </tr>
+                            </table>
+                            <a href="" class="poppins-bold pulsamento">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="oferta">
+                            <h1>Curso de Síndico<br/>Profissional Pro</h1>
+                            <div class="preco">
+                                <p class="montserrat-bold">12x R$698,23</p>
+                                <p class="">À vista R$6.996,00</p>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Videoaulas</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Questões</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td class="subtitulo"><p>Certificado de Conclusão</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td><p>Documentação Bônus</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td><p>Documentação Plus</p></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/Icones/icons8-done-48.png" alt="done-icon"></td>
+                                    <td><p>Mentoria de 6 meses</p></td>
+                                </tr>
+                            </table>
+                            <a href="" class="poppins-bold pulsamento">COMPRAR</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Além da documentação plus, caso você queira uma ajuda personalizada quando já estiver trabalhando como síndico, essa promoção é para você! Durante 6 meses de mentoria, você terá acesso a um suporte ilimitado dos professores por e-mail, recebendo respostas em até 2 dias úteis.</p>
+                    </div>
                 </div>
             </div>
        </section>
