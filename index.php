@@ -152,6 +152,7 @@
             .section-1 div video{
                 width: 100%;
                 border-radius: .4em;
+                cursor: pointer;
             }
             .section-1 a{
                 font-size: 1.2em;
@@ -264,6 +265,7 @@
             .section-4 div video{
                 width: 100%;
                 border-radius: .4em;
+                cursor: pointer;
             }
 
         /* Sessão 5 */
@@ -381,6 +383,7 @@
             #documentos-bonus div img{
                 width: 30%;
                 transition: .5s;
+                cursor: pointer;
             }
             #documentos-bonus div img:hover{
                 scale: 101%;
@@ -420,6 +423,7 @@
                 width: 30%;
                 transition: .5s;
                 margin: .5em;
+                cursor: pointer;
             }
             .section-7 div img:hover{
                 scale: 102%;
@@ -559,6 +563,7 @@
                 width: 48%;
                 padding: 1em;
                 transition: .5s;
+                cursor: pointer;
             }
             .depoimento:hover{
                 scale: 101%;
@@ -717,7 +722,7 @@
             }
         
         /* Sessão 14 */
-        
+
 
     </style>
     <title>Curso de Síndico Profissional | Ômega Educa</title>
@@ -1182,6 +1187,9 @@
                 <p>
                     Ao clicar no botão 'Comprar', você será redirecionado para a página de compra da Hotmart, uma plataforma 100% segura onde você terá a opção de efetuar o pagamento por meio de cartão de crédito ou PIX, com a possibilidade de parcelamento em até 12 vezes. Após a confirmação do pagamento, um e-mail será enviado a você com todas as instruções necessárias para acessar o curso imediatamente.
                 </p>
+            </div>
+            <div class="section-14">
+
             </div>
        </section>
        <footer></footer> 
