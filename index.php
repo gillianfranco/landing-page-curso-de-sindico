@@ -458,7 +458,6 @@
                 <p class="montserrat-bold">TODOS OS DIRETOS RESERVADOS - ÔMEGA ADMINISTRADORA E CONSULTORIA ©2024</p>
             </div>
        </section>
-       <footer></footer> 
     </main>
 </body>
 </html>
